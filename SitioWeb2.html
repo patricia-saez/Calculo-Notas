@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+<meta charset = "UTF-8">
+<title>Kore</title>
+<link rel = "stylesheet" type = "text/css" href = "estiloPrincipal.css">
+<!-- vincular el normalizador -->
+<link rel = "stylesheet" type = "text/css" href = "https://necolas.github.io/normalize.css/4.1.1/normalize.css">
+
+
+</head>
+
+<body bgcolor = '#FBFBEF'>
+<header>
+<br>
+<!-- menu con listas desordenaas-->
+<nav>
+<ul class = "menu">
+<!--<li><a href = "#"><span class = "icon-house"></span></a></li>-->
+<li><a class = "boton" href = "SitioWebPrincipal.html" title = "Inicio">Inicio</a></li>
+<li><a class = "boton" href = "SitioWeb2.html" title = "Estudiantes">Cargar Inventario</a></li>              
+<li><a class = "boton" href = "SitioWeb3.html" title = "Docentes">Descargar Inventario</a></li>
+<li><a class = "boton" href = "SitioWeb4.html" title = "Contactenos">Verificar Existencias</a></li>
+</ul>
+</nav>		
+
+<br>
+<br>
+<center>
+<img align = "center" src = "LogoKpe.jpg" alt = "Logo kore"/>
+</center> 
+<br>	
+<br>
+<br>
+<h1 align = "center"><font face="Arial" color = "black">Cargar Inventario Kore - Store</font></h1>
+<br>
+	
+<center>
+<img align = "center" src = "Kore2.jpg" alt = "Logo kore"/>
+</center>
+<br>
+<br>	
+
+<section align = "center">
+<form action = "." name = "form1" method = "get">
+<p>
+Materia Prima: <input type = "Checkbox" name = "MateriaP_control"/>
+<br>
+<br>
+Producto terminado: <input type = "Checkbox" name = "ProductoT_control"/>
+<br>
+<br>
+Nombre producto: <input type = "text" name = "name_control"autofocus required/>
+<br>
+<br>
+Nº unidades: <input type = "tel" id = "nota1" name = "nota1_control"/>
+<br>
+<br>
+<textarea name="comentarios" rows="10" cols="40"></textarea>
+<br>
+<br>
+
+<input type="button" value="Guardar" onclick="promedio()"/>
+
+</p>
+</form>
+</section>
+
+</header>
+
+
+
+
+<br>
+<br>
+<br>
+
+<hr size = 8, align = "middle", width = 100%,/>
+<footer align = center>"Contactenos en los telefonos: 4678888 - 329-3895462. Horarios de atencion de lunes a viernes de 8:00 a 5:30pm</footer>
+<footer align = center>"Derechos Reservados - UMBVirtual 2016" Jeimi Patricia Saez -  Ing de Software - 2016.</footer>
+<script src = "busqueda.js"></script>
+
+
+
+</body>
+</html>
